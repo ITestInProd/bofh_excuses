@@ -17,7 +17,7 @@ use Getopt::Long;
 
 ## Declare my vars
 ### File path
-my $filePath = 'gen-bofh-excuse_data.csv';
+my $filePath = '';
 ### File handle to parse from
 my $handleExcuses;
 ### String of read in excuses, line by line
@@ -58,6 +58,13 @@ exit 0;
 
 
 sub subPopulateExcuses {
+	## Path on if using HTML or CLI
+	if ($optDisplayHTML == 1) {
+		$filePath = 'gen-bofh-excuse_data.csv';
+	} else {
+		$filePath = $ENV{"HOME"} . '/Code/git/github/thesysadm/bofh_excuses/gen-bofh-excuse_data.csv';
+	}
+
 	## Let's open the excuse file!
 	open ($handleExcuses, '<', $filePath) or die("Could not open '$filePath' $!\n");
 
