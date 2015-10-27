@@ -1,5 +1,5 @@
 Temporary,Array,Interruption,Error
-Intermittant,Systems,Destabilisation,Problem
+Intermittent,Systems,Destabilization,Problem
 Partial,Hardware,Destruction,Warning
 Redundant,Software,Desynchronisation,Signal
 Total,Firmware,Failure,Flag
@@ -9,16 +9,16 @@ Duplicated,Integrity,Underflow,
 Dual-Homed,Subsystem,NMI,
 Synchronous,Memory,Interrupt,
 Bidirectional,Comms,Corruption,
-Serial,Integrity,Anomoly,
+Serial,Integrity,Anomaly,
 Asynchronous,Checksum,Seizure,
 Multiple,Protocol,Override,
 Replicated,Parity,Reclock,
 Non-Replicated,Bus,Rejection,
 Unregistered,Timing,Invalidation,
-Non-Specific,Synchronisation,Halt,
+Non-Specific,Synchronization,Halt,
 Generic,Topology,Exhaustion,
 Migrated,Transmission,Infection,
-Localised,Reception,Incompatibility,
+Localized,Reception,Incompatibility,
 Resignalled,Stack,Timeout,
 Dereferenced,Framing,Expiry,
 Nullified,Code,Unavailability,
@@ -29,7 +29,7 @@ Major,Loading,Dump,
 Extraneous,Operation,Crashdump,
 Illegal,Parameter,Stackdump,
 Insufficient,Syntax,Problem,
-Viral,Initialisation,Lockout,
+Viral,Initialization,Lockout,
 Unsupported,Execution,,
 Outmoded,Resource,,
 Legacy,Encryption,,
